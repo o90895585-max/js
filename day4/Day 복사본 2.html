@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이력서 html_과제</title>
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+
+
+
+
+        #바꿀거야 {
+            font-size: x-large;
+            font-weight: bold;
+        }
+        #요약본일듯 {
+            font-style:italic;
+            color: blue;
+        }
+        #box {
+             display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(4,50px); 
+        
+            width: 1000px;
+            height:
+            
+        }
+        #표 {
+            
+        }
+        #사진 {
+            justify-content: center;
+            align-items: right;
+            text-align: center;
+            display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(4,50px);
+                width: 300px;
+            object-fit: cover;
+
+        }
+        @media (max-width: 50px;) {
+            #표 { 
+                flex-direction: row;
+            }
+        }
+        .class {
+            border: 1px solid black;
+            display: grid;
+            width: 600px;
+            text-align: center;
+            grid-template-columns: ;
+	        grid-template-rows: 15px 1%;
+            font-size: 10px;
+
+        }
+        
+        .class1 {
+            font-style: italic;
+            color: darkblue;
+            font-size: 15px;
+            margin: 10px;
+        }
+        .class2 {
+            font-size: 10px;
+        }
+         
+            
+    </style>
+   
+</head>
+<body>
+   
+    <h1>Sen introduction</h1> <hr>
+    <img id="사진"src="https://images.unsplash.com/photo-1794815234726-9b656204e5c1?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="바다 풍경" width="200" height="200">
+    <p>김민우입니다..</p>
+    <table id="표" border="1">
+        <thead>
+            <tr>
+                <th>구분</th>
+                <th>링크 및 지원정보</th>
+                <th>구분</th>
+                <th>링크 및 지원정보</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Github</th>
+                <th><a href="https://github.com/o90895585-max">Repository</a></th>
+                <th>기술 블로그 / 노션</th>
+                <th><a href="https://app.notion.com/p/31540cb71d0582cf944b014f927b369d">포트폴리오</a></th>
+            </tr>
+            <tr>
+                <th>지원 직무</th>
+                <th> </th>
+                <th>경력 구분 </th>
+                <th></th>
+            </tr>
+            
+        </tbody>
+    </table>
+    <h1>Hobby & Preference</h1> <hr>
+    <ol type="I">
+        <li>취미: 영화 감상, ost 감상</li>
+        <li>좋아하는 음식: 닭 요리 뭐든지</li>
+        <li>좋아하는 영화:<a href="https://en.wikipedia.org/wiki/Cube_(1997_film)">큐브(1997)</a></li>
+        <li>좋아하는 책: <a href="https://ko.wikipedia.org/wiki/%EC%84%A0%EC%95%85%EC%9D%98_%EC%A0%80%ED%8E%B8">선악의 저편(1886)</a></li>
+        <li>좋아하는 음악 장르: 국악풍, 메탈</li>
+    </ol>
+    <h1>Career & Work Experience</h1> <hr>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>회사명</th>
+                <th>직무</th>
+                <th>기간</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>ㅎㄴ전자</th>
+                <th>사원</th>
+                <th>23.1~5</th>
+            </tr>
+            <tr>
+                <th>산불감시원</th>
+                <th>관측</th>
+                <th>26.3~5</th>
+            </tr>
+        </tbody>
+    </table>
+    <h1>ㅈㅈㅅ</h1> <hr>
+        <div id="바꿀거야">1. 지원동기 및 직무 강점 </div>
+            <div class="class1">[데이터 분석 역량과 AI 프로젝트 경험을 바탕으로, 데이터의 가치를 실질적인 성과로 연결하겠습니다] </div>
+            <div class="class">저는 데이터를 통해 문제의 원인을 파악하고, 분석 결과를 실제 개선 방안으로 연결하는 과정에 매력을 느껴 데이터 분석 직무에 관심을 갖게 되었습니다.</div>
+            <div class="class"></div>
+            <div class="class"></div>
+            <div class="class"></div>
+            <div class="class"></div>
+</body>
+
+</html>
